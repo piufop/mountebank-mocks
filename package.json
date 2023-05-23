@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Mountebank mocks samples with NodeJS",
   "scripts": {
+    "start": "nodemon --watch ./servers -e js,ejs,json --delay 1000ms --exec \"npm run start_mb\"",
     "start_mb": "mb --configfile servers/imposters.ejs --allowInjection --localOnly --nologfile"
   },
   "repository": {
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/piufop/mountebank-mocks",
   "dependencies": {
-    "mountebank": "^2.8.2"
+    "mountebank": "^2.8.2",
+    "nodemon": "^2.0.22"
   }
 }

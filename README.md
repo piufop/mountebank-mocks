@@ -9,6 +9,7 @@ Small project with a few mountebank mocks
 
 ### Dependencies
 - [Mountebank](http://www.mbtest.org)
+- [Nodemon](https://npmjs.com/package/nodemon)
 
 <br />
 
