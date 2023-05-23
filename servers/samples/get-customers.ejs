@@ -1,0 +1,15 @@
+{
+    "predicates": [
+        {
+            "matches": {
+                "method": "GET",
+                "path": "/customer"
+            }
+        }
+    ],
+    "responses": [
+        {
+            "inject": "<%- stringify('samples/get-customers-response.js') %>"
+        }
+    ]
+}
