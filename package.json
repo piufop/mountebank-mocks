@@ -2,8 +2,8 @@
   "name": "mountebank-mocks",
   "version": "1.0.0",
   "description": "Mountebank mocks samples with NodeJS",
-  "main": "index.js",
   "scripts": {
+    "start_mb": "mb --configfile servers/imposters.ejs --allowInjection --localOnly --nologfile"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/piufop/mountebank-mocks/issues"
   },
-  "homepage": "https://github.com/piufop/mountebank-mocks"
+  "homepage": "https://github.com/piufop/mountebank-mocks",
+  "dependencies": {
+    "mountebank": "^2.8.2"
+  }
 }
