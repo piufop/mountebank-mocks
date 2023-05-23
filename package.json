@@ -1,0 +1,27 @@
+{
+  "name": "mountebank-mocks",
+  "version": "1.0.0",
+  "description": "Mountebank mocks samples with NodeJS",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piufop/mountebank-mocks.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "mocks",
+    "mock",
+    "stub",
+    "stubs",
+    "mountebank"
+  ],
+  "author": "hugo.machado@outlook.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/piufop/mountebank-mocks/issues"
+  },
+  "homepage": "https://github.com/piufop/mountebank-mocks"
+}
